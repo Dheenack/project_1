@@ -1,6 +1,6 @@
 
 -- create new user
-create user 'username'@localhost identified by 'password';
+create user 'username'@'localhost' identified by 'password';
 
 -- view existing users
 select user,host from mysql.user;
